@@ -18835,5 +18835,5 @@ var SwiperGobal,
         );
     })(0, _temp26);
 var grEntangleApiUrl =
-    "https://widget-ms-google-review-plus.entanglecommerce.com/api/review-with-widgets?shop=quickstart-aad1cb82.myshopify.com";
+    "https://google-review.entanglecommerce.com/api/review-with-widgets?shop=quickstart-aad1cb82.myshopify.com";
 grEntanglePopulateHTML(grEntangleApiUrl);
