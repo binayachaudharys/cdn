@@ -1872,7 +1872,7 @@ function _grEntanglePopulateHTML() {
               addressRegion: "",
               streetAddress: "",
               addressCountry: "nepal",
-              postalCode: "56009"
+              postalCode: ""
             }
           }, _defineProperty(_jsonLdData, _temp12, data === null || data === void 0 ? void 0 : data.name), _defineProperty(_jsonLdData, "aggregateRating", {
             "@type": "AggregateRating",
