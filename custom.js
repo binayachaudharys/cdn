@@ -1837,7 +1837,7 @@ function removeApp() {
 /*--------- Main function ---------*/
 function grEntanglePopulateHTML() {
   return _grEntanglePopulateHTML.apply(this, arguments);
-}
+} // grEntanglePopulateHTML(grEntangleApiUrl);
 function _grEntanglePopulateHTML() {
   return _grEntanglePopulateHTML = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(url) {
     var response, rsponseData, _badgeProps, _data$reviews_summary, _cardSettings, _styles, _jsonLdData, parseAddress, data, badgeProps, cardSettings, styles, styleElement, styleElementCss, footerElement, r, auto_play, auto_play_timing, layoutType, badgeType, isCentered, reviews, jsonLdData, reviewSchema, dataToRender;
@@ -1870,7 +1870,9 @@ function _grEntanglePopulateHTML() {
               "@type": "PostalAddress",
               addressLocality: "Mexico Beach",
               addressRegion: "FL",
-              streetAddress: "3102 Highway 98"
+              streetAddress: "3102 Highway 98",
+              addressCountry: "US",
+              postalCode: "56009"
             },
             description: "A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.",
             telephone: "850-648-4200"
