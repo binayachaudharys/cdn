@@ -1871,7 +1871,7 @@ function _grEntanglePopulateHTML() {
               addressLocality: "",
               addressRegion: "",
               streetAddress: "",
-              addressCountry: "nepal",
+              addressCountry: "",
               postalCode: ""
             }
           }, _defineProperty(_jsonLdData, _temp12, data === null || data === void 0 ? void 0 : data.name), _defineProperty(_jsonLdData, "aggregateRating", {
