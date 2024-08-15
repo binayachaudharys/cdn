@@ -1873,9 +1873,7 @@ function _grEntanglePopulateHTML() {
               streetAddress: "",
               addressCountry: "nepal",
               postalCode: "56009"
-            },
-            description: "A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.",
-            telephone: "850-648-4200"
+            }
           }, _defineProperty(_jsonLdData, _temp12, data === null || data === void 0 ? void 0 : data.name), _defineProperty(_jsonLdData, "aggregateRating", {
             "@type": "AggregateRating",
             ratingValue: "88",
